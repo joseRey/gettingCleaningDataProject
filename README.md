@@ -14,5 +14,8 @@ More in specific, __runAnalysis.R__, the script in this repo does the following:
 3. __Step 3__. Label the activity column with factor levels
 4. __Step 4__. Clean up column (variable) names for readibility
 5. __Step 5__. Summarize (means by activity and subject) into tidy dataset
-
 More details about the process can be found in the [Codebook](//CodeBook.md//)
+
+Some of the criteria used in the steps follows:
+* in Step 2, only columns with names containing "mean" and "std" were selected, while ignoring those that contained mean in addition to "Freq". More details about this in the CodeBook.
+* in Step 3, the "[camelCase convention](http://en.wikipedia.org/wiki/CamelCase)" was used for naming variables/columns.
